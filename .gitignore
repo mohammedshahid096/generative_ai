@@ -1,7 +1,11 @@
 # Ignore environment variable files
-.env
+*.env
 
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
+
+
+# Ignore Node.js dependencies
+node_modules/
