@@ -4,7 +4,7 @@ const { combine, timestamp, json, splat } = format;
 const DevelopmentLogger = () => {
   return createLogger({
     level: "debug",
-    format: combine(timestamp(), json(), splat()),
+    format: combine(json(), splat()),
     transports: [
       //   new transports.Console(),
       new transports.File({ filename: "app-combined.log" }),

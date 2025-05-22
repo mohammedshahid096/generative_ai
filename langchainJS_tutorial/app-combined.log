@@ -1,1 +1,3 @@
 {"level":"info","message":"hello logger added","timestamp":"2025-05-22T05:35:57.573Z"}
+{"level":"info","message":"using pipeline string-output-parser","timestamp":"2025-05-22T05:53:07.842Z"}
+{"0":"Joyful","1":"delighted","2":"cheerful","3":"pleased","4":"content","level":"info","message":"using pipeline comma-separated-output-parser","timestamp":"2025-05-22T06:01:21.215Z"}
