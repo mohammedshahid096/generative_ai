@@ -3,3 +3,7 @@
 {"0":"Joyful","1":"delighted","2":"cheerful","3":"pleased","4":"content","level":"info","message":"using pipeline comma-separated-output-parser","timestamp":"2025-05-22T06:01:21.215Z"}
 {"age":"30","level":"info","message":"structured output","name":"Max"}
 {"ingredients":["tomato","minced beef","garlic","wine","herbs"],"level":"info","message":"structured zod output","recipe":"Spaghetti Bolognese"}
+{"additional_kwargs":{"avgLogprobs":-0.0016306888312101365,"finishReason":"MAX_TOKENS"},"content":"LCEL stands for **LangChain Expression Language**.","invalid_tool_calls":[],"lc_kwargs":{"additional_kwargs":{"avgLogprobs":-0.0016306888312101365,"finishReason":"MAX_TOKENS"},"content":"LCEL stands for **LangChain Expression Language**.","invalid_tool_calls":[],"response_metadata":{},"tool_calls":[],"usage_metadata":{"input_tokens":16,"output_tokens":10,"total_tokens":26}},"lc_namespace":["langchain_core","messages"],"lc_serializable":true,"level":"info","message":"response","response_metadata":{"avgLogprobs":-0.0016306888312101365,"finishReason":"MAX_TOKENS","tokenUsage":{"completionTokens":10,"promptTokens":16,"totalTokens":26}},"tool_calls":[],"usage_metadata":{"input_tokens":16,"output_tokens":10,"total_tokens":26}}
+{"level":"info","message":"response"}
+{"level":"info","message":"response"}
+{"level":"info","message":"response"}
