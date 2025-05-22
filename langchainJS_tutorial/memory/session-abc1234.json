@@ -1,0 +1,119 @@
+[
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "Hi there! my full name is shahid, and nick name is shah.",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Hi Shah! It's nice to meet you. How can I help you today?\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.18330596622667814
+      },
+      "usage_metadata": {
+        "input_tokens": 22,
+        "output_tokens": 19,
+        "total_tokens": 41
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 22,
+          "completionTokens": 19,
+          "totalTokens": 41
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.18330596622667814
+      },
+      "id": "run-7bf612ec-8841-4545-be48-039b7e834828"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "what's my nick name",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Your nickname is Shah.\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0007549275178462267
+      },
+      "usage_metadata": {
+        "input_tokens": 47,
+        "output_tokens": 6,
+        "total_tokens": 53
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 47,
+          "completionTokens": 6,
+          "totalTokens": 53
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0007549275178462267
+      },
+      "id": "run-49d966a2-1a36-49fc-be12-16cf6b18a819"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "what's my full name name",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Your full name is Shahid.\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.000005645544401236943
+      },
+      "usage_metadata": {
+        "input_tokens": 60,
+        "output_tokens": 7,
+        "total_tokens": 67
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 60,
+          "completionTokens": 7,
+          "totalTokens": 67
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.000005645544401236943
+      },
+      "id": "run-0c45d89b-88e6-410e-a706-46c81458e81f"
+    }
+  }
+]

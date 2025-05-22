@@ -1,0 +1,119 @@
+[
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "what's my name",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Your name is Shahid.\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.004614859198530515
+      },
+      "usage_metadata": {
+        "input_tokens": 38,
+        "output_tokens": 6,
+        "total_tokens": 44
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 38,
+          "completionTokens": 6,
+          "totalTokens": 44
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.004614859198530515
+      },
+      "id": "run-22d00ea7-5ef2-4b5e-b6dc-de3ff215ecef"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "what's my nick name",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Your nickname is Shah.\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.004131486639380455
+      },
+      "usage_metadata": {
+        "input_tokens": 56,
+        "output_tokens": 6,
+        "total_tokens": 62
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 56,
+          "completionTokens": 6,
+          "totalTokens": 62
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.004131486639380455
+      },
+      "id": "run-2885f520-0202-42cc-977f-c3d4723a9fbb"
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "HumanMessage"],
+    "kwargs": {
+      "content": "what's my full name name",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    }
+  },
+  {
+    "lc": 1,
+    "type": "constructor",
+    "id": ["langchain_core", "messages", "AIMessage"],
+    "kwargs": {
+      "content": "Your full name is Shahid Shah.\n",
+      "tool_calls": [],
+      "additional_kwargs": {
+        "finishReason": "STOP",
+        "avgLogprobs": -0.039700061082839966
+      },
+      "usage_metadata": {
+        "input_tokens": 36,
+        "output_tokens": 8,
+        "total_tokens": 44
+      },
+      "invalid_tool_calls": [],
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 36,
+          "completionTokens": 8,
+          "totalTokens": 44
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.039700061082839966
+      },
+      "id": "run-9c162afc-bf28-4232-a93e-13fed2a01a5f"
+    }
+  }
+]
