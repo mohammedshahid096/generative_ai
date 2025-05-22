@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { ChatPromptTemplate } from "@langchain/core/prompts";
+import logger from "./logger.js";
+
 dotenv.config();
 
 const model = new ChatGoogleGenerativeAI({
@@ -25,12 +27,15 @@ async function usingPromptFormat() {
   });
   const response = await model.invoke(prompt);
   console.log(response);
+  logger.info("using prompt format", response);
 }
 
 async function usingPipe() {
   let chain = prompt_template_name.pipe(model);
   const response = await chain.invoke({ adjective: "funny", topic: "robots" });
   console.log(response);
+  logger.info("using pipeline", response);
 }
+
 // usingPromptFormat();
 // usingPipe();
