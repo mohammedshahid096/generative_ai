@@ -7,3 +7,5 @@
 {"level":"info","message":"response"}
 {"level":"info","message":"response"}
 {"level":"info","message":"response"}
+{"input":"What is the capital of france","level":"info","message":"message","output":"Paris is the capital and largest city of France.\n"}
+{"input":" Calculate 15 * 23","level":"info","message":"message","output":"15 * 23 = 345\n"}
