@@ -10,3 +10,7 @@
 {"input":"What is the capital of france","level":"info","message":"message","output":"Paris is the capital and largest city of France.\n"}
 {"input":" Calculate 15 * 23","level":"info","message":"message","output":"15 * 23 = 345\n"}
 {"input":"What is 9 times 7?","level":"info","message":"message","output":"9 times 7 is 63.\n"}
+{"input":"I need to get a user info ,what details you want?","level":"info","message":"bot","output":"To retrieve user information, I need the user's name and email address. Do you have those details? I can also accept a phone number if you have it.\n"}
+{"input":"give me the user information for john.doe@example.com","level":"info","message":"bot","output":"I was able to retrieve the user information for john.doe@example.com. However, the result field is empty, suggesting that there is no user registered with that email address."}
+{"input":"give me the user information for john.doe@example.com","level":"info","message":"bot","output":"The user information for john.doe@example.com is: email: john.doe@example.com, name: John Doe, phone: +1234567890."}
+{"input":"i want to add a new user with name: shahid","level":"info","message":"bot","output":"I need the user's email to register them. Also, would you like to provide a phone number for the user?\n"}

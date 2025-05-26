@@ -63,7 +63,7 @@ async function usingToolClass() {
   logger.info("message", response);
 }
 
-async function usingDynamicStructuredToo() {
+async function usingDynamicStructuredTool() {
   // Create the tool using DynamicStructuredTool
   const multiplyTool = new DynamicStructuredTool({
     name: "multiply_numbers",
@@ -71,6 +71,8 @@ async function usingDynamicStructuredToo() {
     schema: multiplierSchema,
     func: async ({ a, b }) => {
       const result = a * b;
+      console.log(a, b, "values");
+
       return `The result of ${a} * ${b} is ${result}`;
     },
   });
@@ -96,4 +98,5 @@ async function usingDynamicStructuredToo() {
   console.log("Bot:", response);
 }
 
-usingToolClass();
+// usingToolClass();
+usingDynamicStructuredTool();
